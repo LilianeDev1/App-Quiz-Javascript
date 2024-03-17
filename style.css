@@ -9,7 +9,10 @@ button {
 }
 
 body {
-  background-color: #121214;
+  background-image: url("img/A\ chave\ do\ Perdão\ \(1\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   color: #fff;
   height: 100vh;
   display: flex;
@@ -18,11 +21,11 @@ body {
 }
 
 .container {
-  background-color: #121214;
+  background-color: #0a0a09;
   width: 90%;
   max-width: 800px;
 
-  border: 2px solid #e1e1e6;
+  border: 4px solid #c3a32f;
   border-radius: 6px;
   padding: 16px;
   box-shadow: 0 0 2px 2px;
@@ -63,9 +66,9 @@ body {
 }
 
 .button {
-  background-color: #4863f7;
-  color: #fff;
-  font-size: 16px;
+  background-color: #c2bfa1;
+  color: #000000;
+  font-size: 12px;
   font-weight: bold;
   border: 0;
   border-radius: 6px;

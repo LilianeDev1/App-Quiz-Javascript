@@ -109,64 +109,84 @@ function finishGame() {
 
 const questions = [
   {
-    question: "Dentro de qual elemento HTML colocamos o JavaScript?",
+    question: "Qual é o significado da frase perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores?",
     answers: [
-      { text: "<javascript>", correct: false },
-      { text: "<js>", correct: false },
-      { text: "<script>", correct: true },
-      { text: "<scripting>", correct: false }
+      { text: "Pedir a Deus para aumentar nossas posses financeiras", correct: false },
+      { text: "Solicitar a Deus que ignore nossas dívidas", correct: false },
+      { text: "Pedir a Deus para nos perdoar assim como perdoamos os outros", correct: true },
+      { text: "Dizer a Deus que estamos cheios de dívidas", correct: false }
     ]
   },
   {
-    question: "Onde é o lugar correto para inserir JavaScript?",
+    question: "Por que Jesus incluiu a ideia de perdão ao falar sobre dívidas?",
     answers: [
-      { text: "Tanto no <head> quanto no <body> está correto", correct: true },
-      { text: "No <body>", correct: false },
-      { text: "No <head>", correct: false },
-      { text: "Em outro lugar", correct: false }
+      { text: "Para ressaltar a importância do perdão mútuo na vida espiritual", correct: true },
+      { text: "Para enfatizar a importância da economia financeira", correct: false },
+      { text: "Para destacar a necessidade de pedir emprestado", correct: false },
+      { text: "Para que a gente não peça emprestado", correct: false }
     ]
   },
   {
-    question: 'Qual é a sintaxe correta para se referir a um script externo chamado "xxx.js"',
+    question: "Qual é a importância do perdão mútuo na vida cristã, de acordo com Mateus 6:12?",
     answers: [
-      { text: '<script src="xxx.js">', correct: true },
-      { text: '<script href="xxx.js">', correct: false },
-      { text: '<script name="xxx.js">', correct: false },
+      { text: "Reconhecer a necessidade de perdoar como Deus perdoa", correct: true },
+      { text: "Não tem importância", correct: false },
+      { text: "Vingança", correct: false },
       { text: "Nenhuma das alternativas", correct: false }
     ]
   },
   {
-    question: 'O arquivo JavaScript externo deve conter a tag <script>',
+    question: "O que essa oração nos ensina sobre a natureza de Deus em relação ao perdão?",
     answers: [
-      { text: "Verdadeiro", correct: false },
-      { text: "Falso", correct: true }
+      { text: "Deus é impiedoso e inflexível", correct: false },
+      { text: "Deus ignora nossas dívidas", correct: false },
+      { text: "Deus é misericordioso e está disposto a perdoar", correct: true },
+      { text: "Deus ignora os pecados", correct: false }
     ]
   },
   {
-    question: 'Como escrever "Hello World" numa caixa de alerta?',
+    question: 'Como o perdão está relacionado à reconciliação nas relações humanas, de acordo com essa passagem?',
     answers: [
-      { text: 'msg("Hello World");', correct: false },
-      { text: 'alert("Hello World");', correct: true },
-      { text: 'msgBox("Hello World");', correct: false },
-      { text: 'alertBox("Hello World");', correct: false }
+      { text: "O perdão não está relacionado à reconciliação", correct: false },
+      { text: "O perdão pode abrir o caminho para a cura e a restauração dos relacionamentos", correct: true },
+      { text: "A reconciliação não é possível", correct: false },
+      { text: "Eu não preciso perdoar", correct: false }
     ]
   },
   {
-    question: 'Como podemos criar uma função no JavaScript?',
+    question: 'Como podemos aplicar o princípio do perdão em nossas próprias vidas?',
     answers: [
-      { text: 'function:myFunction()', correct: false },
-      { text: 'function myFunction()', correct: true },
-      { text: 'function = myFunction()', correct: false },
-      { text: 'Nenhum desses códigos criaria uma função', correct: false }
+      { text: 'Mantendo rancor e ressentimento', correct: false },
+      { text: 'Estendendo a mesma graça que recebemos de Deus aos outros', correct: true },
+      { text: 'Ignorando as ofensas', correct: false },
+      { text: 'Ficando entrigado do irmão', correct: false }
     ]
   },
   {
-    question: 'Como podemos chamar uma função chamada "minhaFuncao"?',
+    question: 'Que exemplos bíblicos ou histórias podem ilustrar a importância do perdão?',
     answers: [
-      { text: 'call minhaFuncao()', correct: false },
-      { text: 'call function minhaFuncao()', correct: false },
-      { text: 'Nenhum desses códigos chamaria essa função', correct: false },
-      { text: 'minhaFuncao()', correct: true },
+      { text: ' Parábola do Bom Samaritano', correct: false },
+      { text: 'Parábola do Servo Impiedoso', correct: true },
+      { text: 'A história de Caim e Abel.', correct: false },
+      { text: 'Os discipulos no barco', correct: false }
+    ]
+  },
+  {
+    question: 'Qual o significado na forma mais simples de perdão?',
+    answers: [
+      { text: 'Sair no tapa', correct: false },
+      { text: 'Chingar ', correct: false },
+      { text: 'cortar os vinculos', correct: false },
+      { text: 'Permitir que o irmão volte a ocupar o mesmo lugar no seu coração', correct: true }
+    ]
+  },
+  {
+    question: 'Qual é a mensagem principal de Paulo sobre perdão na carta de Filemon?',
+    answers: [
+      { text: 'Que Filemon deve buscar vingança contra Onésimo', correct: false },
+      { text: 'Que é melhor esquecer e ignorar as ofensas ', correct: false },
+      { text: 'cortar os vinculos', correct: false },
+      { text: 'Que o perdão e a reconciliação devem ser estendidos, mesmo em situações difíceis', correct: true },
     ]
   },
 ]
